@@ -22,7 +22,7 @@ const Testimonials = () => {
       id: 3,
       name: 'Emily Rodriguez',
       role: 'Marketing Director',
-      quote: 'The financing options were flexible and transparent. I got a great deal on my dream car and couldn't be happier with the experience.',
+      quote: 'The financing options were flexible and transparent. I got a great deal on my dream car and couldn\'t be happier with the experience.',
       avatar: 'https://randomuser.me/api/portraits/women/68.jpg',
     },
   ];
