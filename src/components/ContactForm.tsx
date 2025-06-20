@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import '../styles/ContactForm.css';
+import ducatiImage from '../assets/ducati3.jpg';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -67,6 +68,11 @@ const ContactForm = () => {
               <span className="info-icon">🕒</span>
               <p>Monday - Saturday: 9AM - 7PM<br />Sunday: 10AM - 5PM</p>
             </div>
+            
+            <div className="featured-image">
+              <img src={ducatiImage} alt="Ducati Racing Motorcycles" />
+              <p>We also service premium motorcycles!</p>
+            </div>
           </div>
           
           <div className="form-container">
@@ -127,6 +133,7 @@ const ContactForm = () => {
                     <option value="financing">Financing Options</option>
                     <option value="trade-in">Vehicle Trade-In</option>
                     <option value="service">Service Department</option>
+                    <option value="motorcycle">Motorcycle Service</option>
                   </select>
                 </div>
                 
